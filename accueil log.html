@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VideoWiz - Accueil</title>
+    <link rel="stylesheet" href="accueil log.css">
+    <link href="logo1.png" rel="Shortcut Icon"/>
+  </head>
+  <body>
+  	    <div class="action">
+     <div class="profile" onclick="menuToggle();">
+       <img src="userv.png">
+     </div>
+     <div class="menu">
+        <h3>Mr Salas / Mr Famy<br><span>Professeurs de NSI</span></h3>
+        <ul>
+          <li><img src="user.png"><a href="#">Mon Profil</a></li>
+          <li><img src="edit.png"><a href="#">Modifier le Profil</a></li>
+          <li><img src="envelope.png"><a href="#">Messagerie</a></li>
+          <li><img src="settings.png"><a href="#">Paramètres</a></li>
+          <li><img src="question.png"><a href="#">Aide</a></li>
+          <li><img src="log-out.png"><a href="index.html">Se Déconnecter</a></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      function menuToggle(){
+        const toogleMenu = document.querySelector('.menu');
+        toogleMenu.classList.toggle('active')
+      }
+    </script>
+  	<div class="hero-section home-page-hero">
+  		<div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="nav w-nav">
+  			<div class="w-container">
+  				<a href="accueil log.html" aria-current="page" class="w-nav-brand w--current">
+  					<img src="logo.png" loading="lazy" width="186" sizes="186px"/>
+  				</a>
+				<nav role="navigation" class="nav-menu w-nav-menu">
+					<a href="accueil log.html" aria-current="page" class="nav-link w-nav-link w--current">Accueil</a>
+					<a href="suggestions.html" class="nav-link w-nav-link">Vos suggestions</a>
+					<a href="#" class="nav-link w-nav-link">Ajouter</a>
+					<a href="#" class="nav-link w-nav-link">Genres</a>
+				</nav>
+				<div class="menu-button w-nav-button">
+					<div class="w-icon-nav-menu"></div>
+				</div>
+			</div>
+		</div>
+		<h1 class="home-page-heading">Vos films, Vos suggestions</h1>
+	</div>
+	<div class="section top-section home-page">
+		<div class="hero-container w-container">
+			<div class="w-clearfix">
+				<div class="_60block">
+					<a href="suggestions.html" class="hero-tile w-inline-block">
+						<div class="tile-text">Vos<br/>Suggestions</div>
+						<img src="tsr.png" loading="lazy" width="677" sizes="(max-width: 479px) 94vw, (max-width: 767px) 57vw, (max-width: 991px) 420.79998779296875px, 548px"/>
+					</a>
+				</div>
+				<div class="_40block">
+					<div class="hero-tile w-dyn-list">
+						<div role="list" class="w-dyn-items">
+							<div role="listitem" class="w-dyn-item">
+								<a href="#" class="tile-link w-inline-block">
+									<div class="tile-text">Ajouter <br/>Vos films/series</div>
+									<img src="ajouter.png" loading="lazy" width="398"/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="_33block">
+					<div class="hero-tile">
+						<div class="w-dyn-list">
+							<div role="list" class="w-dyn-items">
+								<div role="listitem" class="w-dyn-item">
+									<a href="#" class="tile-link w-inline-block">
+										<div class="tile-text">Les differents<br/>genres de films</div>
+										<img src="genre.jpg" loading="lazy" width="454" height="290"/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="_33block">
+					<a href="#" data-ix="show-contact-overlay" class="hero-tile w-inline-block">
+						<div class="tile-text">F.A.Q.</div>
+						<img src="faq.png" loading="lazy" width="373" height="290"/>
+					</a>
+				</div>
+				<div  class="_33block">
+					<div class="w-clearfix">
+						<a href="#" class="social-block w-inline-block"></a>
+						<a href="#" class="social-block facebook w-inline-block"></a>
+						<a href="#" class="social-block instagram w-inline-block"></a>
+						<a href="#" class="social-block google w-inline-block"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+  	<div class="footer">
+  		<div class="w-container">
+  			<div class="w-row">
+  				<div class="spc w-col w-col-4">
+  					<h5>A propos de Videowiz</h5>
+  					<p>Nous sommes une petite entreprise française qui se lance dans le web. Nous sommes composés de 10 seulement mais c'est pas ça qui va nous empécher de vous donnez le meilleur service :)</p>
+  				</div>
+  				<div class="spc w-col w-col-4">
+  					<h5>Liens utiles</h5>
+  					<a href="#" class="footer-link">FAQ</a>
+  					<a href="#" class="footer-link">Images</a>
+  				</div>
+  				<div class="w-col w-col-4">
+  					<h5>Social</h5>
+  					<div class="footer-link-wrapper w-clearfix">
+  						<img src="twitter.png" width="20" alt="" class="info-icon"/>
+  						<a href="https://twitter.com" class="footer-link with-icon">Twitter</a>
+  				</div>
+  				<div class="footer-link-wrapper w-clearfix">
+  					<img src="facebook.png" width="20" alt="" class="info-icon"/>
+  					<a href="https://facebook.com" class="footer-link with-icon">Facebook</a>
+  				</div>
+  				<div class="footer-link-wrapper w-clearfix">
+  					<img src="instagram.png" width="20" alt="" class="info-icon"/>
+  					<a href="https://instagram.com" class="footer-link with-icon">Instagram</a>
+  				</div>
+  				<div class="footer-link-wrapper w-clearfix">
+  					<img src="google.png" width="20" alt="" class="info-icon"/>
+  					<a href="https://google.com" class="footer-link with-icon">Google</a>
+  				</div>
+  				<div class="footer-link-wrapper w-clearfix">
+  					<img src="phone-call.png" width="20" alt="" class="info-icon"/>
+  					<a href="https://www.pagesjaunes.fr/pagesblanches" class="footer-link with-icon">+33 6 00 00 00 00</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+</div>
+</body>
+</html>
+
